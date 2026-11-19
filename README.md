@@ -52,7 +52,13 @@ The DQN uses its own episode-based synthetic demand generator and reward structu
 
 ## Reproducibility and status
 
-The Python scripts have been syntax-checked, but a full end-to-end reproduction of every experiment has **not yet been verified**. Package versions are currently unpinned. Outputs are generated locally and are excluded from version control.
+## Reproducibility and status
+
+The repository has been tested end-to-end from a fresh GitHub download. Synthetic demand generation and all five approaches execute successfully.
+
+The MILP approaches use the CBC solver with a 120-second time limit. Feasible solutions may vary across runs and environments, and global optimality is not guaranteed when the time limit is reached.
+
+Package versions are currently unpinned. Generated outputs are stored locally and excluded from version control.
 
 ## Data
 
