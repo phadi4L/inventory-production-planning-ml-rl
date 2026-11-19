@@ -52,8 +52,6 @@ The DQN uses its own episode-based synthetic demand generator and reward structu
 
 ## Reproducibility and status
 
-## Reproducibility and status
-
 The repository has been tested end-to-end from a fresh GitHub download. Synthetic demand generation and all five approaches execute successfully.
 
 The MILP approaches use the CBC solver with a 120-second time limit. Feasible solutions may vary across runs and environments, and global optimality is not guaranteed when the time limit is reached.
